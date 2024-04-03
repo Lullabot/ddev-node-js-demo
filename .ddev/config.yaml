@@ -2,7 +2,7 @@ name: my-project
 type: php
 docroot: ""
 php_version: "8.1"
-webserver_type: nginx-fpm
+webserver_type: nginx-fpm # or "apache-fpm"
 xdebug_enabled: false
 additional_hostnames:
     - "api.my-project"
